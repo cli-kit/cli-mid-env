@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "cli-conflict": "0.0.2",
-    "cli-define": "^0.5.44",
+    "cli-define": "^0.6.4",
     "cli-util": "^1.1.24"
   },
   "devDependencies": {
