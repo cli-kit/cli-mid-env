@@ -1,5 +1,4 @@
 var conflict = require('cli-conflict');
-var Option = require('cli-define').Option;
 var utils = require('cli-util')
   , merge = utils.merge
   , delimited = utils.delimited
@@ -36,7 +35,7 @@ module.exports = function() {
         for(z in environ) {
           arg = this._options[z];
           if((z in this) && typeof(this[z]) == 'function') {
-            return conflict.call(this, z, arg || new Option(z));
+            return conflict.call(this, z, arg || this.createOption(z));
           }
           if(!all && arg) {
             assign.call(this, arg, z, environ[z]);
