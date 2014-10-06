@@ -1,6 +1,6 @@
 {
   "name": "cli-mid-env",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Environment variable middleware",
   "author": "muji <noop@xpm.io>",
   "repository": {
