@@ -24,7 +24,7 @@
     "variable"
   ],
   "dependencies": {
-    "cli-conflict": "0.0.2",
+    "cli-conflict": "~0.1.0",
     "cli-env": "^1.0.9",
     "cli-util": "^1.1.24"
   },
